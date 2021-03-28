@@ -10,3 +10,5 @@ CRUD Operations
 # TODO
 
  - documentation
+
+[![Java CI with Maven](https://github.com/timpr0/spring-usr-prj/actions/workflows/maven.yml/badge.svg)](https://github.com/timpr0/spring-usr-prj/actions/workflows/maven.yml)
