@@ -1,0 +1,36 @@
+server:
+  port: 8080
+  error:
+    include-message: always
+    include-exception: off
+    include-stacktrace: never
+
+spring:
+  jpa:
+    open-in-view: off
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+
+server:
+  port: 8000
+  error:
+    include-stacktrace: always
+    include-exception: on
+
+logging:
+  level:
+    de.tp.projects.usr: debug
+
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+server:
+  port: 9000
